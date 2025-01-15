@@ -1,0 +1,11 @@
+{
+    "name": "Fortran Development",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "settings": {},
+    "extensions": [
+        "fortran-lang.fortran"
+    ],
+    "remoteUser": "root"
+}
