@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Set up a working directory
-WORKDIR /usr/src/app
+WORKDIR /app
 
 # Set default command
-CMD ["bash"]
+CMD ["sh"]
